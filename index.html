@@ -1,76 +1,74 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content=width=device-width,intial-scale=1.0">
-    <meta name="description" content="portofolio niqo">
-    <title>niqo-portofolio</title>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Niqo">
+  <title>Niqo - Portofolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;600&display=swap">
 
-  <link rel="stylesheet" href=style.css">
-  </head>
-
-
-  <body></body>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
   <main class="page">
-    <div class=glow"></div>
-    <section class="portofolio" aria-labelledby="name">
-      <p class="eyebrow">portolio pribadi</p>
+    <div class="glow"></div>
+    <section class="portfolio" aria-labelledby="name">
+      <p class="eyebrow">Portofolio pribadi</p>
 
       <div class="profile-photo">
-        <img src="foto-profil.jpg" alt="potret amara selin">
-        <span class="online-dot"title="sedang online"></span>
+        <img src="foto-profil.jpg" alt="Potret Niqo">
+        <span class="online-dot" title="Sedang online"></span>
       </div>
 
       <header class="intro">
         <h1 id="name">Niqo</h1>
-        <p class="role">Photograpy &amp; Cinematograpy &amp; coding 2</p>
-        <p class=;bio;>saya membuat website ini untuk menampilkann beberapa skill yang saya miliki</p>
+        <p class="role">Photography &amp; Cinematography &amp; Coding</p>
+        <p class="bio">Saya membuat website ini untuk menampilkan beberapa skill yang saya miliki.</p>
       </header>
 
-     <ul class="skills">
-      <li>Videography</li>
-      <li>Photography</li>
-     </ul>
+      <ul class="skills">
+        <li>Videography</li>
+        <li>Photography</li>
+        <li>Coding</li>
+      </ul>
 
-    <section class="music-player" aria-label="pemutar musik">
-      <div class="player-heading">
-        <span>now playing</span>
-        <span class="live-status">💿<span id="status">jeda</span></span></div>
+      <section class="music-player" aria-label="Pemutar musik">
+        <div class="player-heading">
+          <span>Now playing</span>
+          <span class="live-status">💿 <span id="status">Jeda</span></span>
+        </div>
 
-      <div class="song-info">
-        <div class="vinly" id="vinly"><span></span></div>
-        <div></div>
-        <a id="link" target="-blank"rel="_blank" rel="noopener"><h2 id="title">golden hour</h2></a>
-        <p id="artist">jKVE</p>
-      </div>
-    </div>
+        <div class="song-info">
+          <div class="vinyl" id="vinyl"><span></span></div>
+          <div>
+            <a id="link" target="_blank" rel="noopener"><h2 id="title">Golden Hour</h2></a>
+            <p id="artist">JVKE</p>
+          </div>
+        </div>
 
-      <input class="progress" id="progress" type="range" min="0" max="209" value="0" aria-label=posisi lagu">
-      <div class="time-row">
-        <span id="now">0:00</span>
-        <span id="left">-3:29</span>
-      </div>
-
-      <div class="controls">
-        <button class="icon-button" id="prev" type="button" aria-label=lagu sebelumnya"><<</button>
-          <button class="play-button" id="play" type="button"▶ <span>putar</span></button>
-        <button class="icon-button" id="next" type="button" aria-label=lagu berikutnya">>></button>
-      </div>
-      
-      <div class="song-list" id="song-list" aria-label=daftar lagu"></div>
-    </section>
-
-      <p class=footer-note">dibuat oleh saya dengan semangat belajar.</p>
-    </section>
-
-    <script type="module" src="script.js"></script>
-  </body>
-  </html>
-
+        <input class="progress" id="progress" type="range" min="0" max="209" value="0" aria-label="Posisi lagu">
         
+        <div class="time-row">
+          <span id="now">0:00</span>
+          <span id="left">-3:29</span>
+        </div>
+
+        <div class="controls">
+          <button class="icon-button" id="prev" type="button" aria-label="Lagu sebelumnya">&lt;&lt;</button>
+          <button class="play-button" id="play" type="button">▶ <span>Putar</span></button>
+          <button class="icon-button" id="next" type="button" aria-label="Lagu berikutnya">&gt;&gt;</button>
+        </div>
         
+        <div class="song-list" id="list" aria-label="Daftar lagu"></div>
+      </section>
+
+      <p class="footer-note">Dibuat oleh saya dengan semangat belajar.</p>
+    </section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
