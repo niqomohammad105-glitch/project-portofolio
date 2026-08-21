@@ -1,6 +1,6 @@
 :root {
   font-family: Manrope, Arial, sans-serif;
-  color: #f3ede1
+  color: #f3ede1;
   background: none;
   font-synthesis: none;
 }
@@ -13,15 +13,15 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
-  background: #11100f;
+  background: #11100f;.
 }
 
 button, input {
-  font: inheart;
+  font: inheart;.
 }
 
 button, input {
-  font: inherit;
+  font: inherit;.
 }
 
 button {
@@ -49,7 +49,7 @@ padding: 56px 20px;
   backgroud: radial-grandienct(circle, rgba(222, 165, 78, .13), transparent 66%)
 }
 
-.potrofolio {
+.portofolio {
   position: relative;
   width: min(100%, 470PX)
   text-align: center;
@@ -100,7 +100,7 @@ padding: 56px 20px;
   box-shadow: 0 0 11px #78c889cc;
 }
 
-intro h1 {
+.intro h1 {
   margin: 0;
   color: #fff9ed;
   font-family:"DM Serif Display", Georgia, serif;
@@ -118,13 +118,13 @@ intro h1 {
 
 .bio {
   max-width: 390px;
-  margin: 24px auto o;
+  margin: 24px auto 0;
   color: #bbb4a8;
   font-size: 14px;
   line-height: 1.8;
 }
 
-.skill {
+.skills {
   display: flex;
   flex-warp: warp;
   justify-content: center;
@@ -134,7 +134,7 @@ intro h1 {
   list-style: none;
 }
 
-.skill li {
+.skills {
   padding: 7px 11px:
 border: 1px solid #ffffff!c;
 border-radius": 999px;
@@ -158,7 +158,7 @@ font-size: 11px;
   font-size: 9px;
 }
 
-live-status {
+.live-status {
   color: #dca44e;
 }
 
@@ -179,7 +179,7 @@ live-status {
   background:repeating-radial-gradient(circle, #42411e 0 2px, #151412 3px 5px);
 }
 
-vinyl span {
+.vinyl span {
   width: 58px;
   height: 15px;
   border: 4px solid #c89143;
@@ -209,7 +209,7 @@ vinyl span {
   font-size: 12px;
 }
  .progress { 
-   width: 100%
+   width: 100%;
    height: 4px;
    margin: 4px 0 8px:
    apprearance: none;
@@ -224,7 +224,7 @@ vinyl span {
   width: 12px;
   height: 12px;
   appearance: none;
-  border: 0:
+  border: 0;
 border-radius: 50%;
   background: #f1c577;
 }
@@ -233,7 +233,7 @@ border-radius: 50%;
   width: 12px;
   height: 12px;
   border: 0;
-  border-radius: %0%
+  border-radius: %0%;
   background: #f1c577;
 }
 
@@ -293,7 +293,7 @@ color: #c7c0b5;
 
 .song-item:hover span:nth-child(2),
 >song-item,active span:nth-child(2) {
-  color: #f1c577:
+  color: #f1c577;
 }
 
 .song-item active span:first-child {
@@ -301,14 +301,14 @@ color: #dca44e;
 }
 
 footer-note {
-  margin: 28px 0 0:
+  margin: 28px 0 0;
 color: #625d55;
   font-size: 9px;
 }
 
 @keyframes spin {
   to{ transform: rotate(360deng): }
-  ]
+}
   @keyframes appear {
   from { opacity: 0; transform: translateY(15px); }
   to {opacity: 1; transform: translateY(0); }
